@@ -1,4 +1,41 @@
-:root {
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  margin: 0;
+  /* display: flex; */
+  /* place-items: center; */
+  min-width: 320px;
+  min-height: 100vh;
+}
+/* 侧边栏 */
+/* 侧边栏标题 */
+.demo-logo-vertical{
+  height:60px;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+}
+.demo-logo-vertical>span{
+  background-color: rgba(255,255,255,.2);
+  height:70%;
+  width:90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+/* 头部组件 */
+.header-contanier{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +102,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
